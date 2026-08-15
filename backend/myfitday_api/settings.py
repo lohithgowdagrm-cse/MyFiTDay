@@ -203,12 +203,11 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # CORS CONFIGURATION
 # ============================================================
 
-# React/Vite development server
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://lohithgowdagrm-cse.github.io",
 ]
-
 
 # ============================================================
 # CSRF CONFIGURATION
@@ -217,8 +216,8 @@ CORS_ALLOWED_ORIGINS = [
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://lohithgowdagrm-cse.github.io",
 ]
-
 
 # ============================================================
 # DJANGO REST FRAMEWORK
